@@ -1,2 +1,2 @@
 # action-compare-branchs-pullrequest
-🚮 Github Action para comparar timelines no Pull-request
+🐱‍👤 Github Action para comparar timelines no Pull-request
