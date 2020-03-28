@@ -1,2 +1,2 @@
-# action-delete-stale-branches
-🚮 Github Action para apagar branches obsoletos
+# action-compare-branchs-pullrequest
+🚮 Github Action para comparar timelines no Pull-request
