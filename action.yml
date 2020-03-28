@@ -1,12 +1,8 @@
-name: "Action compare branchs on Pull-request"
-description: "Get started with Python Container actions"
+name: "Compare branchs"
+description: "Action to compare branchs on Pull-request"
 author: "Rafael Dalsenter"
-inputs:
-  myInput:
-    description: "Input to use"
-    default: "world"
 outputs:
-  myOutput:
+  defaultOutput:
     description: "Output from the action"
 runs:
   using: "docker"
