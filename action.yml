@@ -1,9 +1,13 @@
 name: "Compare branchs"
 description: "Action to compare branchs on Pull-request"
 author: "Rafael Dalsenter"
+branding:
+  icon: "chevrons-left"
+  color: "blue"
 outputs:
-  defaultOutput:
+  default:
     description: "Output from the action"
 runs:
   using: "docker"
   image: "Dockerfile"
+
