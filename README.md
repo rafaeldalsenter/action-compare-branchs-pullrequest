@@ -1,9 +1,9 @@
 # action-compare-branchs-pullrequest
 🐱‍👤 Github Action para comparar timelines no Pull-request
 
-A intenção dessa Action é criar um controle para que valide a cada pull-request se o branch head está muito "atrasado" em relação ao branch base, estimulando assim, que os desenvolvedores façam merge e mantenham seus branches atualizados.
+This action validates in the pull-request if the branch Head is obsolete in relation to the Base branch. Validation is done through the parameter `NUMBER_COMMITS_DIFF`, encouraging developers to keep their BRANCHES up to date.
 
-## Uso
+## Usage
 
 ```yaml
 on: [pull_request]

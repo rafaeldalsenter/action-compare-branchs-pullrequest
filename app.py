@@ -23,14 +23,14 @@ def main():
         compare = repo.compare(pull_request.head.ref, pull_request.base.ref)
 
         if(compare.total_commits > number_commits_diff):
-            print(f'{prefix_output}Há uma diferença entre mais de {number_commits_diff} commits entre o branch Head e Base')
+            print(f'{prefix_output}This is a difference of {number_commits_diff} commits between branches Head and Base')
             sys.exit(1)
 
-        print(f'{prefix_output}Branchs Head e Base alinhados!')
+        print(f'{prefix_output}Branches Head and Base are up to date')
         sys.exit(0)
 
     except Exception as err:
-        print(f'{prefix_output}Erro {str(err)}')
+        print(f'{prefix_output}Error {str(err)}')
         sys.exit(1)
 
 if __name__ == '__main__':
