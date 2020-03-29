@@ -1,10 +1,14 @@
 import os
+import requests
 from github import Github
 
 def main():
 
-    print(f"::set-output name=defaultOutput::Teste de erro")
+    print("ERRO")
     return 1
+
+    # print(f"::set-output name=defaultOutput::Teste de erro")
+    # return 1
     # try:
     #     repository = os.environ['GITHUB_REPOSITORY']
     #     token = os.environ['GITHUB_TOKEN']
